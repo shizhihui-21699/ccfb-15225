@@ -1,0 +1,8 @@
+# GHSA-2222-3333-4444 — fix exists but has not shipped
+
+Package: eval-tool
+
+All versions are affected: the command runner passes untrusted input to `eval`.
+
+The maintainers have fixed this on the development branch but have not cut a
+release yet.
